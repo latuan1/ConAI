@@ -40,7 +40,7 @@ Structure:
 Generate test data to maximize statement coverage for the partial
 method.
 
-class {FocalClass} {
+/*FC*/ class {FocalClass} {
     /*PM*/ {partial method}
     /*F*/  {used fields}
     /*C*/  {related constructors}
@@ -64,15 +64,15 @@ path, reducing noise and token length.
 
 ### 2.2 Target
 
-The Target encodes test input using a JSON-style key--value format.
+The Target encodes test input using a JSON-style key-value format.
 
 Example:
 ```cpp
 {
     "nums": [3],
-    "nums_element0": "1",
-    "nums_element1": "3",
-    "nums_element2": "2" 
+    "nums_element0": ["1"],
+    "nums_element1": ["3"],
+    "nums_element2": ["2"] 
 }
 ```
 Mapping rules:
