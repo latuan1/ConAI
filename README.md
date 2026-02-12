@@ -171,6 +171,7 @@ If you use ConAI-Bench in your research, please cite:
 ```cpp
 @article{conai2026, 
     title={Combining Concolic Testing with Small Language Model to Generate Test Data for C++ with Limited Training Set},
-    author={Tran, Linh Ngoc Truc and Luong Anh, Tuan and Le Khanh, Trinh and Nguyen, Duc-Anh and Pham Ngoc, Hung}, year={2026}
+    author={Tran, Linh Ngoc Truc and Luong Anh, Tuan and Le Khanh, Trinh and Nguyen, Duc-Anh and Pham Ngoc, Hung},
+    year={2026}
 }
 ```
